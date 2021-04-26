@@ -1,6 +1,6 @@
-### Webpack-5 Handlebars
+# Webpack-5 Handlebars
 
-## how to use it
+## How to use it
 
 1. install the dependencies
 ```
@@ -15,19 +15,27 @@ then open the browser and link to localhost:8080 to watch your web page
 3. run build
 ```
 yarn build
-
 ```
-## project file construction
+
+## Project file construction
 ```
 --dist // build folder
-  |--common
-  |  |--js
-  |--pageA // each page has one folder
+  |--page // frontend/backend each page has one folder
   |  |  |--js
   |  |  |--css
   |  |  |--index.html
   |
 --src // source code folder
+  |--assets 
+  |	 |--scripts
+  |  |	|--backend.js
+  |  |	|--frontend.js
+  |  |--styles
+  |  |	|--backend.scss
+  |  |	|--frontend.scss
+  |
+  |--helpers // handelbars helpers
+  |  |--ifCond.js|
   |
   |--components // handelbars partial
   |  |--layout
@@ -36,13 +44,9 @@ yarn build
   |
   |--pages // your web pages
   |  |--frontend
-  |  |  |--js
-  |  |  |--scss
   |  |  |--frontpage.hbs
   |  |--backend
-  |  |  |--js
-  |  |  |--scss
-  |  |  |--infighters-settings.hbs
+  |  |  |--backend.hbs
   |
 --package.json
 --webpack.config.js
