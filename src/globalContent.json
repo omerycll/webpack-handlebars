@@ -1,0 +1,24 @@
+{
+  "prefix": "hwebpack",
+  "devData": {
+    "emailRequiredText": "Please enter some email address!",
+    "emailWrongText": "Please enter correct email address!",
+    "emailExistsText": "This email address has already been subscribed!",
+    "emailSuccesText": "Email was added to newsletter successfully!",
+    "contactForm": {
+      "id": 7394,
+      "firstname_label": "First name",
+      "firstname_required_text": "Please provide us your firstname",
+      "lastname_label": "Last name",
+      "lastname_required_text": "Please provide us your lastname",
+      "email_label": "Email address",
+      "email_required_text": "We need your email address to contact you",
+      "email_validate_text": "Your email address must be in the format of name@domain.com",
+      "message_label": "Your message",
+      "message_required_text": "Please add a message",
+      "submit_button_text": "Send",
+      "success_message": "Thanks for your question. We have already gotten your message and will answer as soon as possible!",
+      "failed_message": "Oops, We are having a problems with form right now! Please try again later."
+    }
+  }
+}
